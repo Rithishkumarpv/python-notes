@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Notes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            🐍 Python Notes
+        </div>
+
+        <div class="search-area">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search Python topics..."
+                autocomplete="off"
+            >
+
+            <button id="searchButton">
+                🔍 Search
+            </button>
+
+        </div>
+
+        <button id="darkModeButton" class="dark-button">
+            🌙
+        </button>
+
+    </header>
+
+
+    <!-- ================= MAIN LAYOUT ================= -->
+
+    <div class="layout">
+
+        <!-- ================= SIDEBAR ================= -->
+
+        <aside class="sidebar">
+
+            <button id="homeButton" class="home-button">
+                🏠 Home
+            </button>
+
+
+            <h3>Python Basics</h3>
+
+            <button class="topic-button" data-topic="first-program">
+                First Python Program
+            </button>
+
+            <button class="topic-button" data-topic="execution">
+                Python Execution
+            </button>
+
+            <button class="topic-button" data-topic="variables">
+                Variables
+            </button>
+
+            <button class="topic-button" data-topic="operators">
+                Operators
+            </button>
+
+            <button class="topic-button" data-topic="keywords">
+                Keywords
+            </button>
+
+            <button class="topic-button" data-topic="data-types">
+                Data Types
+            </button>
+
+
+            <h3>Control Flow</h3>
+
+            <button class="topic-button" data-topic="conditional">
+                Conditional Statements
+            </button>
+
+            <button class="topic-button" data-topic="match-case">
+                Match-Case
+            </button>
+
+            <button class="topic-button" data-topic="while-loop">
+                While Loop
+            </button>
+
+            <button class="topic-button" data-topic="for-loop">
+                For Loop
+            </button>
+
+            <button class="topic-button" data-topic="nested-loops">
+                Nested Loops
+            </button>
+
+
+            <h3>Functions</h3>
+
+            <button class="topic-button" data-topic="functions">
+                Functions
+            </button>
+
+            <button class="topic-button" data-topic="arguments">
+                Arguments
+            </button>
+
+            <button class="topic-button" data-topic="lambda">
+                Lambda
+            </button>
+
+            <button class="topic-button" data-topic="recursion">
+                Recursion
+            </button>
+
+
+            <h3>Data Structures</h3>
+
+            <button class="topic-button" data-topic="strings">
+                Strings
+            </button>
+
+            <button class="topic-button" data-topic="lists">
+                Lists
+            </button>
+
+            <button class="topic-button" data-topic="tuples">
+                Tuples
+            </button>
+
+            <button class="topic-button" data-topic="dictionaries">
+                Dictionaries
+            </button>
+
+            <button class="topic-button" data-topic="sets">
+                Sets
+            </button>
+
+            <button class="topic-button" data-topic="arrays">
+                Arrays
+            </button>
+
+
+            <h3>Data Structure Concepts</h3>
+
+            <button class="topic-button" data-topic="list-comprehension">
+                List Comprehension
+            </button>
+
+            <button class="topic-button" data-topic="stack">
+                Stack
+            </button>
+
+            <button class="topic-button" data-topic="queue">
+                Queue
+            </button>
+
+
+            <h3>Other Topics</h3>
+
+            <button class="topic-button" data-topic="modules">
+                Modules & Packages
+            </button>
+
+            <button class="topic-button" data-topic="libraries">
+                Python Libraries
+            </button>
+
+            <button class="topic-button" data-topic="errors">
+                Errors & Exception Handling
+            </button>
+
+            <button class="topic-button" data-topic="files">
+                File Handling
+            </button>
+
+        </aside>
+
+
+        <!-- ================= CONTENT ================= -->
+
+        <main id="content" class="content">
+
+            <!-- HOME PAGE -->
+
+            <section class="home-page">
+
+                <div class="hero">
+
+                    <div class="python-icon">
+                        🐍
+                    </div>
+
+                    <h1>Python Notes</h1>
+
+                    <p>
+                        A simple Python learning website containing
+                        notes, explanations and examples.
+                    </p>
+
+                    <button id="startButton" class="start-button">
+                        Start Learning →
+                    </button>
+
+                </div>
+
+
+                <div class="welcome-box">
+
+                    <h2>Welcome!</h2>
+
+                    <p>
+                        This website is designed as a personal Python
+                        notes reference. Use the sidebar or search bar
+                        to find the topic you want to study.
+                    </p>
+
+                </div>
+
+
+                <div class="cards">
+
+                    <div class="card">
+                        <span>📘</span>
+                        <h3>Python Basics</h3>
+                        <p>
+                            Learn variables, operators, keywords
+                            and data types.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span>🔄</span>
+                        <h3>Control Flow</h3>
+                        <p>
+                            Learn conditions, loops and match-case.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span>⚙️</span>
+                        <h3>Functions</h3>
+                        <p>
+                            Learn functions, arguments, lambda
+                            and recursion.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span>🗃️</span>
+                        <h3>Data Structures</h3>
+                        <p>
+                            Learn strings, lists, tuples,
+                            dictionaries and sets.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
